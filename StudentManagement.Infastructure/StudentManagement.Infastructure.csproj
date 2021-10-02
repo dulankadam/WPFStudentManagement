@@ -14,4 +14,8 @@
     <ProjectReference Include="..\StudentManagement.Core\StudentManagement.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Presistence\Configurations\" />
+  </ItemGroup>
+
 </Project>
