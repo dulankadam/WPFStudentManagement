@@ -1,0 +1,17 @@
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Infastructure.deps.json
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Infastructure.dll
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\ref\StudentManagement.Infastructure.dll
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Infastructure.pdb
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.csproj.AssemblyReference.cache
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.AssemblyInfoInputs.cache
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.AssemblyInfo.cs
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.csproj.CoreCompileInputs.cache
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.dll
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\ref\StudentManagement.Infastructure.dll
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.pdb
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Core.dll
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Domain.dll
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Core.pdb
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Domain.pdb
+C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.csproj.CopyComplete

@@ -1,0 +1,11 @@
+C:\WPF Student Management\StudentManagement.Domain\bin\Debug\net5.0\StudentManagement.Domain.deps.json
+C:\WPF Student Management\StudentManagement.Domain\bin\Debug\net5.0\StudentManagement.Domain.dll
+C:\WPF Student Management\StudentManagement.Domain\bin\Debug\net5.0\ref\StudentManagement.Domain.dll
+C:\WPF Student Management\StudentManagement.Domain\bin\Debug\net5.0\StudentManagement.Domain.pdb
+C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.AssemblyInfoInputs.cache
+C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.AssemblyInfo.cs
+C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.csproj.CoreCompileInputs.cache
+C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.dll
+C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\ref\StudentManagement.Domain.dll
+C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.pdb
