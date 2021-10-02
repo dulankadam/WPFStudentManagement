@@ -15,7 +15,7 @@ namespace StudentManagement.Domain.Models.Students
         public int Age { get; set; }
         public int Gender { get; set; }
         public string ProfileImage { get; set; }
-        public int MobileNumber { get; set; }
+        public string MobileNumber { get; set; }
         public int StudentCategory { get; set; }        
         public bool Active { get; set; }
     }
