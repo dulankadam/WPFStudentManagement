@@ -11,13 +11,25 @@ using System.Reflection;
 using StudentManagement.Infastructure.Presistence.Extensions.Seeds;
 using StudentManagement.Domain.Models.Courses;
 using StudentManagement.Domain.Models.Students;
+using Microsoft.Extensions.Configuration;
 
 namespace StudentManagement.Infastructure.Presistence
 {
     public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        private readonly IConfiguration _configuration;
+
+        public ApplicationDbContext(IConfiguration configuration)
         {
+            _configuration = configuration;
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(
+                   _configuration.GetConnectionString("Default")
+               );
+            base.OnConfiguring(optionsBuilder);
         }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
