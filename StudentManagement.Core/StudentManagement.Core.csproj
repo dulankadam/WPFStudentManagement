@@ -12,4 +12,9 @@
     <ProjectReference Include="..\StudentManagement.Domain\StudentManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\CourseServices\" />
+    <Folder Include="Services\StudentServices\" />
+  </ItemGroup>
+
 </Project>
