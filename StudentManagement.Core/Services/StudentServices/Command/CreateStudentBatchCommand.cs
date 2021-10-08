@@ -18,12 +18,20 @@ namespace StudentManagement.Core.Services.StudentServices.Command
             _context = context;
         }
 
-        public async Task<bool> Handle(Student student, CancellationToken cancellationToken)
+        public async Task<bool> Handle(Student student)
         {
-            await _context.Students.AddRangeAsync(student);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.Students.AddRangeAsync(student);
+                await _context.SaveChangesAsync();
 
-            return true;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            
         }
     }
 }

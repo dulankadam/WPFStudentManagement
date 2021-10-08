@@ -85,7 +85,7 @@ namespace StudentManagement.WPF.Views.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/StudentManagement.WPF;V1.0.0.0;component/views/controls/navigationpane.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/StudentManagement.WPF;component/views/controls/navigationpane.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Controls\NavigationPane.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

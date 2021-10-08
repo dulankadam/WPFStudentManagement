@@ -19,7 +19,7 @@ namespace StudentManagement.Core.Services.CourseServices.Command
             _context = context;
         }
 
-        public async Task<bool> Handle(Course course, CancellationToken cancellationToken)
+        public async Task<bool> Handle(Course course)
         {
             await _context.Courses.AddRangeAsync(course);
             await _context.SaveChangesAsync();

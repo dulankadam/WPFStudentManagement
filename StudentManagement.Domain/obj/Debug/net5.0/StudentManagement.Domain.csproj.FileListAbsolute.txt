@@ -9,4 +9,3 @@ C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManag
 C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.dll
 C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\ref\StudentManagement.Domain.dll
 C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.pdb
-C:\WPF Student Management\StudentManagement.Domain\obj\Debug\net5.0\StudentManagement.Domain.csproj.AssemblyReference.cache
