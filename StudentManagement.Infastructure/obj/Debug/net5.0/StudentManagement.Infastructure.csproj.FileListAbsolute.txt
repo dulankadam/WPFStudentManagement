@@ -15,3 +15,4 @@ C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\Stude
 C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Core.pdb
 C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Domain.pdb
 C:\WPF Student Management\StudentManagement.Infastructure\obj\Debug\net5.0\StudentManagement.Infastructure.csproj.CopyComplete
+C:\WPF Student Management\StudentManagement.Infastructure\bin\Debug\net5.0\StudentManagement.Infastructure.dll.config
