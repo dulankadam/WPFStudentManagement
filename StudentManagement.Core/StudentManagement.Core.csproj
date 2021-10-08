@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="Services\CourseServices\Query\" />
-    <Folder Include="Services\StudentServices\Query\" />
   </ItemGroup>
 
 </Project>
