@@ -4,15 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StudentManagement.WPF"
-        xmlns:controls="clr-namespace:StudentManagement.WPF.Views.Controls"
+        xmlns:controls="clr-namespace:StudentManagement.WPF.Views"
         mc:Ignorable="d"
         Title="MainWindow" 
-        Height="800" 
-        Width="1040"
+        Height="500" 
+        Width="350" 
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         AllowsTransparency="True"
         Background="Transparent"
+        ResizeMode="NoResize"  
+        FontFamily="Segoe UI Emoji"
         >
     
     <Grid Margin="20" Background="{StaticResource MainBackground}">
@@ -25,6 +27,6 @@
             </DropShadowEffect>
         </Grid.Effect>
         
-        <controls:NavigationPane Panel.ZIndex="1"/>
+        <controls:LoginView Panel.ZIndex="1"/>      
     </Grid>
 </Window>

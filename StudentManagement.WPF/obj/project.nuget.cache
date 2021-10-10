@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "94wzzTw1VR7Altu3+JlVycOPfBycJk5cpBE3tOqd/4zg5p6kajH3a4FJnJnij9qRg+KOzi+vYZxbZBedqO30lQ==",
+  "dgSpecHash": "u/skO82IHiSNm3Py8AKIhA5qWMOsrTCJ1/V4715z99V2Zke5v/dvlA0/h29AviHPO/S8cb9KvXPGKGwTwoMejQ==",
   "success": true,
   "projectFilePath": "C:\\WPF Student Management\\StudentManagement.WPF\\StudentManagement.WPF.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",

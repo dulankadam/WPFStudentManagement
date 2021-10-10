@@ -43,3 +43,6 @@ C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\C
 C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Theme\GeneralStyles.baml
 C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\App.baml
+C:\WPF Student Management\StudentManagement.WPF\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\LoginView.g.cs
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\LoginView.baml

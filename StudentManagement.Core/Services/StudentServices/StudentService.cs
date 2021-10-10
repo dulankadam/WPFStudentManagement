@@ -11,9 +11,14 @@ namespace StudentManagement.Core.Services.StudentServices
 {
     public class StudentService : IStudentService
     {
-        public readonly CreateStudentBatchCommand createStudent;
+        public readonly CreateStudentBatchCommand _createStudent;
         public readonly GetStudentQuery getStudent;
         public readonly UpdateStudentBatchCommand updateStudent;
+
+        public StudentService(CreateStudentBatchCommand createStudent)
+        {
+            _createStudent = createStudent;
+        }
 
         public async Task<bool> CreateStudent(Student student)
         {
@@ -24,7 +29,7 @@ namespace StudentManagement.Core.Services.StudentServices
                     return false;
                 }
 
-                bool result = await createStudent.Handle(student);
+                bool result = await _createStudent.Handle(student);
                 return result;
             }
             catch (Exception ex)

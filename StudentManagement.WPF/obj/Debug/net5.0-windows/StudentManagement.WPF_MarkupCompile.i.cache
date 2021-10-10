@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\WPF Student Management\StudentManagement.WPF\App.xaml
-3-260948048
+459949243
 
-8325572014
-2071249603582
-MainWindow.xaml;Theme\GeneralStyles.xaml;Views\Controls\NavigationPane.xaml;
+101553285693
+208-484006163
+MainWindow.xaml;Theme\GeneralStyles.xaml;Views\Controls\NavigationPane.xaml;Views\LoginView.xaml;
 
-False
+True
 

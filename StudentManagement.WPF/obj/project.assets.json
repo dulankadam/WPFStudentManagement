@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
+      "MaterialDesignColors/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/5.0.10": {
         "type": "package",
         "dependencies": {
@@ -216,6 +225,22 @@
     }
   },
   "libraries": {
+    "MaterialDesignColors/2.0.3": {
+      "sha512": "Hn5GsMbmYet4WTVRNN01VGkPglWtytJt3oTTzjHjPSDtoF6ZVmfjj6R1EeNER2rlBtSNGuqB4GZmD6cnHL0f1A==",
+      "type": "package",
+      "path": "materialdesigncolors/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net452/MaterialDesignColors.dll",
+        "lib/net452/MaterialDesignColors.pdb",
+        "lib/netcoreapp3.1/MaterialDesignColors.dll",
+        "lib/netcoreapp3.1/MaterialDesignColors.pdb",
+        "materialdesigncolors.2.0.3.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/5.0.10": {
       "sha512": "w5+5oewaQWDj4ChxxjLhdxIi98dK+kq7wvqnTco9PodkqHIDMfKk+5fQCQGLQrbhTdNaqyfYE1ApFP66mLXv6Q==",
       "type": "package",
@@ -619,6 +644,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "MaterialDesignColors >= 2.0.3",
       "StudentManagement.Core >= 1.0.0",
       "StudentManagement.Domain >= 1.0.0"
     ]
@@ -677,6 +703,12 @@
     "frameworks": {
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "MaterialDesignColors": {
+            "target": "Package",
+            "version": "[2.0.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
