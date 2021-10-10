@@ -12,6 +12,7 @@ using StudentManagement.Infastructure.Presistence.Extensions.Seeds;
 using StudentManagement.Domain.Models.Courses;
 using StudentManagement.Domain.Models.Students;
 using Microsoft.Extensions.Configuration;
+using StudentManagement.Domain.Models.Login;
 
 namespace StudentManagement.Infastructure.Presistence
 {
@@ -65,6 +66,7 @@ namespace StudentManagement.Infastructure.Presistence
         public virtual DbSet<CourceSelection> CourceSelections { get; set; }
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<EducationQualification> EducationQualifications { get; set; }
+        public virtual DbSet<Login> Logins { get; set; }
 
     }
 }

@@ -1,4 +1,8 @@
-﻿using System;
+﻿using StudentManagement.Core.Common.Interfaces;
+using StudentManagement.Core.Services;
+using StudentManagement.Core.Services.LoginServices;
+using StudentManagement.WPF.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +24,21 @@ namespace StudentManagement.WPF.Views
     /// </summary>
     public partial class LoginView : UserControl
     {
-        public LoginView()
+        private readonly Core.Services.LoginServices.LoginService loginService;
+        private readonly IApplicationDbContext _context;
+        public LoginView(IApplicationDbContext context)
         {
             InitializeComponent();
+            _context = context;
+            loginService = new LoginService(_context);
+
+
+        }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            var LoginResult = LoginService.ValidateLoginCredentials(txtUserName.Text, txtPassword.Password);
+            MessageBox.Show(LoginResult.ToString());
         }
     }
 }

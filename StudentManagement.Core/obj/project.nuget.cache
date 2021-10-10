@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Suv1oHA83dM+19KAw7tjf4wQ/RFBkT3laoUhqzLGOIs1OrYT++TibNshuofB1NweKJtBi48mE0va9EqkBdSWKA==",
+  "dgSpecHash": "CBUKrC8U64aKaCJZZRhRrBCpb8mliWUuGqI8t3EO1IoHdnFQsBVB9X/42OC8fMW5TBFYFUX/vfjUAK53nWRX2w==",
   "success": true,
   "projectFilePath": "C:\\WPF Student Management\\StudentManagement.Core\\StudentManagement.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\fluentvalidation\\8.6.1\\fluentvalidation.8.6.1.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
@@ -17,6 +18,12 @@
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\optivem.framework.core.all\\1.0.23\\optivem.framework.core.all.1.0.23.nupkg.sha512",
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\optivem.framework.core.application\\1.0.23\\optivem.framework.core.application.1.0.23.nupkg.sha512",
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\optivem.framework.core.application.interface\\1.0.23\\optivem.framework.core.application.interface.1.0.23.nupkg.sha512",
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\optivem.framework.core.common\\1.0.23\\optivem.framework.core.common.1.0.23.nupkg.sha512",
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\optivem.framework.core.domain\\1.0.23\\optivem.framework.core.domain.1.0.23.nupkg.sha512",
+    "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\optivem.framework.infrastructure.fluentvalidation\\1.0.23\\optivem.framework.infrastructure.fluentvalidation.1.0.23.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Damith Weerawardana\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"

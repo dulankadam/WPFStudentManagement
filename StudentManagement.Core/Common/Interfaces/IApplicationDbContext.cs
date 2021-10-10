@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StudentManagement.Domain.Models.Courses;
+using StudentManagement.Domain.Models.Login;
 using StudentManagement.Domain.Models.Students;
 using System;
 using System.Collections.Generic;
@@ -19,5 +20,6 @@ namespace StudentManagement.Core.Common.Interfaces
         public DbSet<CourceSelection> CourceSelections { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<EducationQualification> EducationQualifications { get; set; }
+        public DbSet<Login> Logins { get; set; }
     }
 }
