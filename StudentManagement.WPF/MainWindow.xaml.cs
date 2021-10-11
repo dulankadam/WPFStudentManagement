@@ -10,7 +10,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace StudentManagement.WPF
@@ -23,6 +22,17 @@ namespace StudentManagement.WPF
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            var response = MessageBox.Show("Do you really want to exit?", "Exiting...",
+                                      MessageBoxButton.YesNo, MessageBoxImage.Exclamation);
+            if (response == MessageBoxResult.Yes)
+            {
+                Application.Current.Shutdown();
+            }
+
         }
     }
 }

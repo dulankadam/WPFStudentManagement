@@ -7,10 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\Controls\NavigationPane.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\LoginView.xaml.cs">
+    <Compile Update="MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -19,12 +16,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\GeneralStyles.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\Controls\NavigationPane.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

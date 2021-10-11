@@ -16,17 +16,22 @@ namespace StudentManagement.Core.Services.LoginServices
 
         public LoginService(IApplicationDbContext context)
         {
+            _context = context;
             getLoginQuery = new GetLoginQuery(_context);
         }
+
         public async Task<Login> ValidateLoginCredentials(string username, string Password)
         {
+            var loginUSer = await getLoginQuery.LoginValidation(username, Password);
 
-
-            return new Login()
+            if(loginUSer != null)
             {
-                UserName = "test",
-                Password = "abcd123"
-            };
+                return loginUSer;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
