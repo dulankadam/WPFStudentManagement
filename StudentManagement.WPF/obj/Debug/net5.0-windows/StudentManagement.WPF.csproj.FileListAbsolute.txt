@@ -48,3 +48,9 @@ C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Student
 C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\ref\StudentManagement.WPF.dll
 C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\StudentManagement.WPF.pdb
 C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\StudentManagement.WPF.genruntimeconfig.cache
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\CourseView.g.cs
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\IndexView.g.cs
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\StudentView.g.cs
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\CourseView.baml
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\IndexView.baml
+C:\WPF Student Management\StudentManagement.WPF\obj\Debug\net5.0-windows\Views\StudentView.baml

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\WPF Student Management\StudentManagement.WPF\App.xaml
-2927249769
+5731807188
 
-9676737279
+13-52940892
 215-248691429
-MainWindow.xaml;Theme\GeneralStyles.xaml;
+MainWindow.xaml;Theme\GeneralStyles.xaml;Views\CourseView.xaml;Views\IndexView.xaml;Views\StudentView.xaml;
 
-False
+True
 

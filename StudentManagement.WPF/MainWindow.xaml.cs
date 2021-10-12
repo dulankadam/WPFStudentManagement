@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentManagement.WPF.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,21 @@ namespace StudentManagement.WPF
                 Application.Current.Shutdown();
             }
 
+        }
+
+        private void btnCourse_click(object sender, RoutedEventArgs e)
+        {
+            MainContainer.Content = new CourseView();
+        }
+
+        private void btnIndex_Click(object sender, RoutedEventArgs e)
+        {
+            MainContainer.Content = new IndexView();
+        }
+
+        private void btnStuden_Click(object sender, RoutedEventArgs e)
+        {
+             MainContainer.Content = new StudentView();
         }
     }
 }
